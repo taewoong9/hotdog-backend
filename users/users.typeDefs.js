@@ -10,6 +10,6 @@ export default gql`
         user_gender: String!
         user_phone: String!
         user_address: String!
-        posts: [postdb]
+        postdb: [postdb]
     }
 `;

@@ -1,12 +1,12 @@
-import client from "../client"
+// import client from "../client"
 
-export default {
-    Query: {
-        seePetProfile: (_, { id }) =>
-            client.petdb.findUnique({
-                where: {
-                    id,
-                },
-            }),
-    },
-};
+// export default {
+//     Query: {
+//         seePetProfile: (_, { pet_name }) =>
+//             client.petdb.findUnique({
+//                 where: {
+//                     pet_name,
+//                 },
+//             }),
+//     },
+// };

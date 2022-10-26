@@ -53,9 +53,9 @@ model likesdb {
 
 model petdb {
   id         Int    @id @default(autoincrement())
-  user_id    Int   
+  user_id    Int    
   pet_name   String @db.VarChar(10)
-  pet_age    Int    @db.UnsignedInt
+  pet_age    String @db.VarChar(10)
   pet_gender String @db.VarChar(2)
   pet_kinds  String @db.VarChar(15)
   pet_image  String @db.VarChar(300)

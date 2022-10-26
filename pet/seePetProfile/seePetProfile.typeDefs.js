@@ -2,6 +2,6 @@ import { gql } from "apollo-server-express";
 
 export default gql`
     type Query {
-        seeFeed(offset:Int!):[postdb]
+        seePetProfile(user_id:Int!): petdb
     }
 `;
